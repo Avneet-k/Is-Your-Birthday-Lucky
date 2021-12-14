@@ -3,7 +3,7 @@ body{
     padding: 0;
     height: 100vh;
     background: #C6FFDD; 
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    background: -webkit-linear-gradient(to right, #f7787c, #FBD786, #C6FFDD); 
     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
     font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +22,22 @@ body{
 }
 h1{
     font-size:35px;
-    padding-bottom:15px;
+}
+.note{
+    background-color:#f7787c ;
+    color: white;
+    border: 1.5px solid #f7787ca6;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 270px;
+    font-size: 0.7rem;
+    margin: 0 auto ;
+    cursor: pointer;
+}
+
+.privacy{
+    font-weight: bold;
 }
 .heading{
     font-size: 22px;

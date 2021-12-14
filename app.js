@@ -2,6 +2,8 @@ const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNo = document.querySelector("#lucky-no");
 const checkBtn = document.querySelector("#btn-check");
 const output = document.querySelector("#txtarea");
+const crossIcon = document.querySelector(".cross");
+const noteDiv = document.querySelector(".note");
 
 checkBtn.addEventListener("click",() =>{
     var dob = dateOfBirth.value;
@@ -20,6 +22,9 @@ checkBtn.addEventListener("click",() =>{
         output.innerText = "Your Bithday is not Lucky🥺 but YOU ARE🙌!!"
         // console.log("Your Bithday is not Lucky🥺 but YOU ARE🙌!!");
     }
-
-
 })
+
+crossIcon.addEventListener("click", ()=>{
+    noteDiv.style.display="none";
+    console.log("working");
+});
