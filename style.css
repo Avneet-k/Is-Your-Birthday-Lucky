@@ -87,9 +87,27 @@ textarea{
 }
 footer{
     text-align: center;
-    position:fixed;
-    bottom: 0;
     width: 100%;
-    padding: 1rem;
     font-size:16px;
+}
+.footer-ul{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding:0;
+}
+.footer-nav{
+    text-decoration: none;
+}
+.menu{
+    margin:12px;
+    text-decoration: none;
+}
+.footer-ul i{
+    font-size:27px;
+    color:black;
+}
+.footer-ul i:hover{
+    color:#e03c42 ;
 }
